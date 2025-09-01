@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "style.css">
+    <title>ToDo</title>
+</head>
+<body>
+    <div>
+        <h1 class="header">
+            To Do
+        </h1>
+    </div>
+    <div>
+        <input class="input" id="taskname" type="text" placeholder="Add a new task">
+        <button id="addbtn">Add</button>
+    </div>
+    <div style="display: absolute; gap: 10px; margin-top: 20px;">
+        <button id="showallbtn">Show all tasks</button>
+        <button id="showactivebtn">Show active tasks</button>
+        <button id="showcompletedbtn">Show completed tasks</button>
+        <button id="clearallbtn">Clear all</button>
+    </div>
+    <div>
+        <ul class="list" id="items">
+
+        </ul>
+    </div>
+<script src = '/index.js'></script>    
+</body>
+</html>
