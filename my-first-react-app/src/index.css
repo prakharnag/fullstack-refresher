@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0ebeb;
+  color: #535050;
+}
+
+h2{
+  color:#e96f6f
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.card{
+      border: 1px solid #ccc;
+      padding: 16px;
+      margin: 16px;
+      background-color: #dddada;
+      border-radius: 10px;
+      min-height: 100px;
+}
+
+button {
+  background-color: #e96f6f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
